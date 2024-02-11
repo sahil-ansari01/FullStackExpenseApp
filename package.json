@@ -1,0 +1,32 @@
+{
+  "name": "fullstackexpenseapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil-ansari01/FullStackExpenseApp.git"
+  },
+  "author": "sahil-ansari01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahil-ansari01/FullStackExpenseApp/issues"
+  },
+  "homepage": "https://github.com/sahil-ansari01/FullStackExpenseApp#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.36.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
